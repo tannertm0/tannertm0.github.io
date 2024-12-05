@@ -7,12 +7,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     
     {% include head-custom.html %}
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  integrity="sha512-p8Xo6D1o5zJjQ9f/3YVihk5UowdG9gM9Wb/qG4EO+VOGBxHzXIVFRY8aMZGM4D1l+3+OSR7tG9E6ez+PpG/6A=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
 
 {% seo %}
   </head>
@@ -23,16 +17,15 @@
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>tanner™ | Security Student/Researcher</h1>
-          <i class="fas fa-camera"></i>
         </a>
         <h2>Page about what I do</h2>
 
         <section id="downloads">
           {% if site.show_downloads %}
-            <a href="" class="btn btn-twitter"></a>
-            <a href="" class="btn btn-discord"></a>
+            <a href="" class="btn btn-twitter">Follow Twitter</a>
+            <a href="" class="btn btn-discord">Join Discord</a>
           {% endif %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+          <a href="https://github.com/tannertm0" class="btn btn-github"><span class="icon"></span>View my GitHub</a>
         </section>
       </div>
     </header>
